@@ -1,0 +1,137 @@
+body {
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: brown;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header{
+    position: absolute;
+    grid-column: span 2;
+    background-color: beige;
+    width: 100%;
+}
+
+.left {
+    display: inline-block;
+    /*border: 2px solid red;*/
+    position: absolute;
+    left: 30px;
+    top: 15px;
+
+}
+
+.left img {
+    padding: 4px 20px;
+    width: 50px;
+}
+
+.left div {
+    line-height: 11px;
+    font: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+
+    margin: 20px auto;
+    /*border: 2px solid greenyellow;*/
+
+
+}
+
+.right {
+
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+    /*border: 2px solid blueviolet;*/
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 34px 23px;
+
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+
+    text-decoration: underline;
+    color: gray;
+
+}
+
+.btn {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px 9px;
+    background-color: white;
+    color: gray;
+    padding: 4px 45px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.objective {
+    padding: 27% 0 10% 15%;
+ }
+ 
+.objective h1{
+    text-align: center;
+    color: beige;
+ }
+
+.objective h2{
+    text-align: center;
+    color:red;
+ }
+
+.objective p{
+    /*text-align: center;*/
+    color: beige;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+ }
+
+.extra {
+    padding: 20% 0% 10% 10%;
+}
+
+.extra img {
+    height: 400px;
+}
+
+.footer {
+    grid-column: span 2;
+    text-align: center;
+    height: 20px;
+    padding: 20px 0;
+    background-color: beige;
+    color: black;
+}
